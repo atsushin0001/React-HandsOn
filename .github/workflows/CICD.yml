@@ -28,4 +28,4 @@ jobs:
           aws-region: ap-northeast-1
       - name: Copy files to the test website with the AWS CLI
         run: |
-          aws s3 sync out/ s3://20230806-react-handson
+          aws s3 sync out/ s3://20230806-react-handson --delete
